@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--  fully qualified class name -->
+<suite name="firstSuite" verbose="10" parallel="methods" thread-count="2">
+	
+	<test name="FS1.0">
+		<parameter name="Name" value="arg2"></parameter>
+		 <!--<groups>
+			<run> 
+				<include name="moto"></include>
+				<include name="nokia"></include>
+				<exclude name="moto"></exclude>
+				<exclude name="nokia"></exclude>
+		
+			</run>
+		</groups> -->
+		<classes>
+			<!-- <class name= "testNGPro.DependencyMgmt"></class>
+			<class name= "testNGPro.priorityHandson"></class>
+			<class name= "testNGPro.SkipTestCase"></class>
+			<class name= "testNGPro.SampleTestng"></class> 
+			<class name= "testNGPro.GroupingHandson"></class> 
+			<class name= "testNGPro.parameterizationHandson"></class>-->
+			<class name= "testNGPro.AssertionHandson"></class>
+		</classes>
+	</test>
+</suite> 

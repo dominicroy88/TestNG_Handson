@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstRun">
+	<listeners>
+		<listener class-name="testNGPro.ListenersHandson"></listener>
+	</listeners>
+	<test name="FR1.0">
+		<classes>
+			
+			<!-- <class name="testNGPro.AnnotationOrderOfExecution"></class>
+			<class name= "testNGPro.DependencyMgmt"></class>
+			<class name= "testNGPro.priorityHandson"></class>
+			<class name="testNGPro.SkipTestCase"></class> -->
+			<class name= "testNGPro.SampleTestng"></class>
+		</classes>
+	</test>
+</suite> 
